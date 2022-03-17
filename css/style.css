@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header,nav,section{
+    display: block;
+}
+body{
+    width: 940px;
+    margin: auto;
+    background-color: pink;
+}
+ul{
+    list-style-type: none;
+    margin-top: -10px;
+}
+li{
+    float: right;
+}
+a{
+    text-decoration: none;
+    padding: 19px;
+    color: white;
+}
+.active{
+    opacity: 0.5;
+}
+.purchase{
+    width: 30px;
+    background-color:rgba(255, 20, 147, 0.1) ;
+    padding: 20px;
+    border-radius: 19px;
+}
+span{
+    color: rgba(255, 20, 147);
+}
+.made{
+    color: white;
+}
+.header{
+    margin-top: 30px;
+}
+#wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#header{
+    margin-top: 100px;
+    white-space: nowrap;
+}
+.signup{
+    margin-top: 80px;
+    margin-left: 240px;
+    background-color: white;
+    width: 408px;
+    height: 400px;
+    text-align:center ;
+    position: relative;
+    border-radius: 10px;
+}
+ h3{
+    font-size: 40px;
+    padding-top: 30px;
+}
+form{
+    margin-top: 15px;
+}
+input[type=email]{
+    padding: 4px;
+    width: 300px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+input[type=password]{
+        width: 300px;
+         padding: 4px;
+       border-radius: 50px;
+        border: 1px solid grey;
+        padding-left: 10px;
+}
+input[type=checkbox]:focus{
+    background-color: pink;
+}
+.buttonsignin{
+    width: 300px;
+         padding: 4px;
+       border-radius: 50px;
+        border: 1px solid grey;
+        background-color: rgba(255, 20, 147);
+        color: white;
+}
+.span{
+    background-color:pink;
+    width: 129px;
+    height: 1px;
+    position: absolute;
+    top: 264px;
+    left: 224px;
+    
+}
+.spantwo{
+    background-color: pink;
+    width: 129px;
+    height: 1px;
+    position: absolute;
+    top: 264px;
+    left:50px;
+    
+}
+.or{
+    margin-top: 15px;
+}
+.loginbutton{
+    width: 300px;
+    padding: 4px;
+  border-radius: 50px;
+   border: 1px solid grey;
+   background-color: palevioletred;
+   margin-top: 15px;
+   color: white;
+}
+#header{
+    line-height: 190px;
+}
+.hheader{
+    line-height: 35px;
+    font-size: 40px;
+    color: white;
+}
+.pheader{
+    line-height: 25px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+.buttonheader{
+    background-color: rgba(255, 20, 147, 0.1);
+    width: 100px;
+    padding: 10px;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid grey;
+}
+#signin{
+    color: palevioletred;
+}
+.account{
+    margin-top: 10px;
+}
