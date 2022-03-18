@@ -9,7 +9,8 @@ header,nav,section{
 body{
     width: 940px;
     margin: auto;
-    background-color: pink;
+    background-color: #21325e;
+    font-family: sans-serif;
 }
 ul{
     list-style-type: none;
@@ -33,7 +34,7 @@ a{
     border-radius: 19px;
 }
 span{
-    color: rgba(255, 20, 147);
+    color: #218fd7;
 }
 .made{
     color: white;
@@ -51,10 +52,10 @@ span{
 }
 .signup{
     margin-top: 80px;
-    margin-left: 240px;
+    margin-left: 195px;
     background-color: white;
     width: 408px;
-    height: 400px;
+    height: 450px;
     text-align:center ;
     position: relative;
     border-radius: 10px;
@@ -67,7 +68,7 @@ form{
     margin-top: 15px;
 }
 input[type=email]{
-    padding: 4px;
+    padding: 12px;
     width: 300px;
     border-radius: 50px;
     border: 1px solid grey;
@@ -75,7 +76,7 @@ input[type=email]{
 }
 input[type=password]{
         width: 300px;
-         padding: 4px;
+         padding: 12px;
        border-radius: 50px;
         border: 1px solid grey;
         padding-left: 10px;
@@ -85,10 +86,10 @@ input[type=checkbox]:focus{
 }
 .buttonsignin{
     width: 300px;
-         padding: 4px;
+         padding: 12px;
        border-radius: 50px;
         border: 1px solid grey;
-        background-color: rgba(255, 20, 147);
+        background-color: #21325e;
         color: white;
 }
 .span{
@@ -96,7 +97,7 @@ input[type=checkbox]:focus{
     width: 129px;
     height: 1px;
     position: absolute;
-    top: 264px;
+    top: 310px;
     left: 224px;
     
 }
@@ -105,8 +106,8 @@ input[type=checkbox]:focus{
     width: 129px;
     height: 1px;
     position: absolute;
-    top: 264px;
-    left:50px;
+    top: 310px;
+    left:57px;
     
 }
 .or{
@@ -114,10 +115,10 @@ input[type=checkbox]:focus{
 }
 .loginbutton{
     width: 300px;
-    padding: 4px;
+    padding: 12px;
   border-radius: 50px;
    border: 1px solid grey;
-   background-color: palevioletred;
+   background-color: #218fd7;
    margin-top: 15px;
    color: white;
 }
@@ -125,7 +126,7 @@ input[type=checkbox]:focus{
     line-height: 190px;
 }
 .hheader{
-    line-height: 35px;
+    line-height: 40px;
     font-size: 40px;
     color: white;
 }
@@ -144,7 +145,7 @@ input[type=checkbox]:focus{
     border: 1px solid grey;
 }
 #signin{
-    color: palevioletred;
+    color: #218fd7;
 }
 .account{
     margin-top: 10px;
